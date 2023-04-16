@@ -1,0 +1,1 @@
+Atividade 2 de Desenvolvimento WEB II - Criação de CRUD utilizando Node, Express e Sequelize em MySQL
