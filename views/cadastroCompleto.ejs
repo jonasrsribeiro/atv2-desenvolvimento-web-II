@@ -7,12 +7,12 @@
     <title>Home</title>
 </head>
 <body>
-        <p>Nome: <%= nome %></p>
-        <p>Sobrenome: <%= sobrenome %></p>
-        <p>Idade: <%= idade %></p>
-        <p>Email: <%= email %></p>
-        <p>Nacionalidade: <%= nacionalidade %></p>
-    <form action="/cadastro" method="get">
+        <p>Nome: <%= nomeUsuarioCadastro %></p>
+        <p>Sobrenome: <%= sobrenomeUsuarioCadastro %></p>
+        <p>Idade: <%= idadeUsuarioCadastro %></p>
+        <p>Email: <%= emailUsuarioCadastro %></p>
+        <p>Nacionalidade: <%= nacionalidadeUsuarioCadastro %></p>
+    <form action="/cadastro/recadastrar" method="post">
         <input type="submit" id="botao" name="recadastrar" value="Editar informações">
     </form>
 </body>
